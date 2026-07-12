@@ -15,12 +15,12 @@ public class UI {
             }
             System.out.println();
         }
-        System.out.println("  a b c d e f g h");
+        System.out.println("   a  b  c  d  e  f  g  h");
     }
     private static void printChessPiece(ChessPiece piece)
     {
         if(piece == null){
-            System.out.print("-");
+            System.out.print(" - ");
         } else{
             System.out.print(piece);
         }
